@@ -1,3 +1,8 @@
+/*.custom property*/
 .color {
-    color :blue;
+    color: #fff;
+}
+button,
+.button {
+    word-warp: break-word;
 }

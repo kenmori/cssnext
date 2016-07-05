@@ -1,3 +1,13 @@
+:root {
+    --morita : #fff;
+}
+
+/*.custom property*/
 .color {
-    color :blue;
+    color : var(--morita);
+}
+
+@custom-selector :--button button, .button;
+:--button {
+    word-warp: break-word;
 }

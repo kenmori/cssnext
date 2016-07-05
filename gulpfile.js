@@ -16,8 +16,7 @@ var opacity = function (css, opts) {
 
 gulp.task('css', function () {
     var processors = [
-        cssnext({browsers: ['last 1 version']}),
-        opacity,
+        cssnext({browsers: ['last 2 version']})
     ];
     return gulp.src('./src/*.css')
         .pipe(postcss(processors))
